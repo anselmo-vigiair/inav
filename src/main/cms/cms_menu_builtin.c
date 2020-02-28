@@ -82,7 +82,7 @@ static long cmsx_InfoInit(const OSD_Entry *from)
 
 static const OSD_Entry menuInfoEntries[] = {
     OSD_LABEL_ENTRY("--- INFO ---"),
-    OSD_STRING_ENTRY("FWID", INAV_IDENTIFIER),
+    OSD_STRING_ENTRY("FWID", VIGIAIR_IDENTIFIER),
     OSD_STRING_ENTRY("FWVER", FC_VERSION_STRING),
     OSD_STRING_ENTRY("GITREV", infoGitRev),
     OSD_STRING_ENTRY("TARGET", infoTargetName),

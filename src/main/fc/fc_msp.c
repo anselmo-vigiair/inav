@@ -118,7 +118,7 @@
 
 extern timeDelta_t cycleTime; // FIXME dependency on mw.c
 
-static const char * const flightControllerIdentifier = INAV_IDENTIFIER; // 4 UPPER CASE alpha numeric characters that identify the flight controller.
+static const char * const flightControllerIdentifier = VIGIAIR_IDENTIFIER; // 4 UPPER CASE alpha numeric characters that identify the flight controller.
 static const char * const boardIdentifier = TARGET_BOARD_IDENTIFIER;
 
 // from mixer.c

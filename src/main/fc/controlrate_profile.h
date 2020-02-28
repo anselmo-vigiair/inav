@@ -32,7 +32,7 @@ equivalent of rates 0 from previous versions of iNav, Cleanflight, Baseflight
 and so on.
 */
 #define CONTROL_RATE_CONFIG_ROLL_PITCH_RATE_MAX  180
-#define CONTROL_RATE_CONFIG_ROLL_PITCH_RATE_MIN  6
+#define CONTROL_RATE_CONFIG_ROLL_PITCH_RATE_MIN  2
 #define CONTROL_RATE_CONFIG_ROLL_PITCH_RATE_DEFAULT  20
 #define CONTROL_RATE_CONFIG_YAW_RATE_MAX         180
 #define CONTROL_RATE_CONFIG_YAW_RATE_MIN         2

@@ -200,4 +200,4 @@ void targetConfiguration(void)
     ((controlRateConfig_t*)currentControlRateProfile)->throttle.rcExpo8 = 0;
     ((controlRateConfig_t*)currentControlRateProfile)->throttle.dynPID = 10;
     ((controlRateConfig_t*)currentControlRateProfile)->throttle.pa_breakpoint = 1600;
-}
+ 60

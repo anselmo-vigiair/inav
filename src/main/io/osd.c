@@ -2793,9 +2793,10 @@ static void osdCompleteAsyncInitialization(void)
         }
         y = 4;
     }
+    
 
     char string_buffer[30];
-    tfp_sprintf(string_buffer, "INAV VERSION: %s", FC_VERSION_STRING);
+    tfp_sprintf(string_buffer, "VIGIAIR VERSION: %s", FC_VERSION_STRING);
     displayWrite(osdDisplayPort, 5, y++, string_buffer);
 #ifdef USE_CMS
     displayWrite(osdDisplayPort, 7, y++,  CMS_STARTUP_HELP_TEXT1);

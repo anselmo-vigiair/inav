@@ -16,7 +16,7 @@
 #
 
 # The target to build, see VALID_TARGETS below
-TARGET    ?= REVO
+TARGET    ?= OMNIBUSF4V3
 
 # Compile-time options
 OPTIONS   ?=
@@ -57,7 +57,7 @@ endif
 # Things that need to be maintained as the source changes
 #
 
-FORKNAME      = inav
+FORKNAME      = vigiair
 
 # Working directories
 ROOT            := $(patsubst %/,%,$(dir $(lastword $(MAKEFILE_LIST))))
